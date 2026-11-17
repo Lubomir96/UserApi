@@ -1,0 +1,364 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|c:\\users\\lenovo\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 scalefocus\\userapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|c:\\users\\lenovo\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 scalefocus\\userapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|c:\\users\\lenovo\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 scalefocus\\userapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\AppData\\Roaming\\Microsoft\\UserSecrets\\b4cd4b9b-fa16-4c07-ae92-4f8c56900beb\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|c:\\users\\lenovo\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 scalefocus\\userapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|c:\\users\\lenovo\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 scalefocus\\userapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|solutionrelative:services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|c:\\users\\lenovo\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 scalefocus\\userapi\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|solutionrelative:interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|c:\\users\\lenovo\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 scalefocus\\userapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|c:\\users\\lenovo\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 scalefocus\\userapi\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|solutionrelative:interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|c:\\users\\lenovo\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 scalefocus\\userapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|c:\\users\\lenovo\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 scalefocus\\userapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|solutionrelative:dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Migrations\\20261117132148_AddPasswordHashToUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20261117132148_AddPasswordHashToUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|c:\\users\\lenovo\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 scalefocus\\userapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|c:\\users\\lenovo\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 scalefocus\\userapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|c:\\users\\lenovo\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 scalefocus\\userapi\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|solutionrelative:interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|c:\\users\\lenovo\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 scalefocus\\userapi\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|solutionrelative:dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|c:\\users\\lenovo\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 scalefocus\\userapi\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|solutionrelative:dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Migrations\\20261117103144_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20261117103144_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|c:\\users\\lenovo\\desktop\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 scalefocus\\userapi\\data\\applicationdbcontext.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F2DA-B5D4-4591-AD68-2306A3830C19}|UserApi.csproj|solutionrelative:data\\applicationdbcontext.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T13:30:47.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\AppData\\Roaming\\Microsoft\\UserSecrets\\b4cd4b9b-fa16-4c07-ae92-4f8c56900beb\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\b4cd4b9b-fa16-4c07-ae92-4f8c56900beb\\secrets.json",
+              "ToolTip": "C:\\Users\\Lenovo\\AppData\\Roaming\\Microsoft\\UserSecrets\\b4cd4b9b-fa16-4c07-ae92-4f8c56900beb\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\b4cd4b9b-fa16-4c07-ae92-4f8c56900beb\\secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-17T13:28:12.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Services\\TokenService.cs",
+              "RelativeToolTip": "Services\\TokenService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T13:27:10.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "Interfaces\\ITokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T13:26:53.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T13:23:28.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Interfaces\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T13:23:05.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "DTOs\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T13:22:45.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "DTOs\\RegisterDto.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T13:22:25.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20261117132148_AddPasswordHashToUser.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Migrations\\20261117132148_AddPasswordHashToUser.cs",
+              "RelativeDocumentMoniker": "Migrations\\20261117132148_AddPasswordHashToUser.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Migrations\\20261117132148_AddPasswordHashToUser.cs",
+              "RelativeToolTip": "Migrations\\20261117132148_AddPasswordHashToUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T13:21:48.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAmwDYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T11:00:17.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T10:59:39.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T10:37:33.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\DTOs\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\DTOs\\UpdateUserDto.cs",
+              "RelativeToolTip": "DTOs\\UpdateUserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T10:35:42.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20261117103144_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Migrations\\20261117103144_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20261117103144_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Migrations\\20261117103144_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20261117103144_InitialCreate.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T10:31:44.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAAwIEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T10:29:48.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-17T10:29:26.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationDbContext.cs.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Data\\ApplicationDbContext.cs.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Data\\ApplicationDbContext.cs.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T10:29:02.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\DTOs\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreateUserDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\DTOs\\CreateUserDto.cs",
+              "RelativeToolTip": "DTOs\\CreateUserDto.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAYwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T10:22:51.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 ScaleFocus\\UserApi\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwA8AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T10:22:25.596Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 156,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
