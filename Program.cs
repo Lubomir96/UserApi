@@ -4,11 +4,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-
 using UserApi.Data;
 using UserApi.Interfaces;
 using UserApi.Models;
 using UserApi.Services;
+using UserApi.Repositories;
 
 namespace UserApi
 {
@@ -65,10 +65,14 @@ namespace UserApi
                 IPasswordHasher<User>,
                 PasswordHasher<User>>();
 
+            // Repositories
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+
             // Application Services
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<IAuthService, AuthService>();
             builder.Services.AddScoped<ITokenService, TokenService>();
+            builder.Services.AddScoped<IEmailService, EmailService>();
 
             // Controllers
             builder.Services.AddControllers();

@@ -14,5 +14,11 @@ namespace UserApi.Models
 
         public int Age { get; set; }
         public string PasswordHash { get; set; } = string.Empty;
+        public string? MfaCodeHash { get; set; }
+        public DateTime? MfaCodeExpiresAt { get; set; }
+        public int MfaCodeAttempts { get; set; }
+        public string? PasswordResetTokenHash { get; set; }
+        public DateTime? PasswordResetTokenExpiresAt { get; set; }
+        public DateTime? MfaCodeLastSentAt { get; set; }
     }
 }

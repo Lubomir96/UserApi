@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using UserApi.DTOs;
 using UserApi.Interfaces;
-using UserApi.Models;
 using Microsoft.AspNetCore.Authorization;
 
 namespace UserApi.Controllers;
@@ -21,7 +20,7 @@ public class UserController : ControllerBase
 
     // GET: api/user
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<User>>> GetUsers()
+    public async Task<ActionResult<IEnumerable<UserResponseDto>>> GetUsers()
     {
         var users = await _userService.GetAllAsync();
 
@@ -30,7 +29,7 @@ public class UserController : ControllerBase
 
     // GET: api/user/1
     [HttpGet("{id}")]
-    public async Task<ActionResult<User>> GetUser(int id)
+    public async Task<ActionResult<UserResponseDto>> GetUser(int id)
     {
         var user = await _userService.GetByIdAsync(id);
 
@@ -43,7 +42,7 @@ public class UserController : ControllerBase
     // POST: api/user
 
     [HttpPost]
-    public async Task<ActionResult<User>> CreateUser(CreateUserDto dto)
+    public async Task<ActionResult<UserResponseDto>> CreateUser(CreateUserDto dto)
     {
         var emailExists = await _userService.EmailExistsAsync(dto.Email);
 

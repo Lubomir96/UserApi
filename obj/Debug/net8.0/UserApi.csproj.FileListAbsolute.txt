@@ -143,3 +143,6 @@ C:\Users\Lenovo\Desktop\Практика ScaleFocus\UserApi\obj\Debug\net8.0\Use
 C:\Users\Lenovo\Desktop\Практика ScaleFocus\UserApi\obj\Debug\net8.0\UserApi.genruntimeconfig.cache
 C:\Users\Lenovo\Desktop\Практика ScaleFocus\UserApi\obj\Debug\net8.0\ref\UserApi.dll
 C:\Users\Lenovo\Desktop\Практика ScaleFocus\UserApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Lenovo\Desktop\Практика ScaleFocus\UserApi\obj\Debug\net8.0\UserApi.sourcelink.json
+C:\Users\Lenovo\Desktop\Практика ScaleFocus\UserApi\bin\Debug\net8.0\MailKit.dll
+C:\Users\Lenovo\Desktop\Практика ScaleFocus\UserApi\bin\Debug\net8.0\MimeKit.Core.dll

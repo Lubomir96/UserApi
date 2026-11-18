@@ -1,0 +1,65 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.sln.ide
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+out/
+artifacts/
+
+# Visual Studio cache and generated files
+*.cache
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+Generated Files/
+
+# .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.pdb
+*.mdb
+
+# NuGet
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+.nuget/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+secrets.json

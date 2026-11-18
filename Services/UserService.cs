@@ -1,6 +1,4 @@
 ﻿
-using Microsoft.EntityFrameworkCore;
-using UserApi.Data;
 using UserApi.DTOs;
 using UserApi.Interfaces;
 using UserApi.Models;
@@ -9,24 +7,34 @@ namespace UserApi.Services;
 
 public class UserService : IUserService
 {
-    private readonly ApplicationDbContext _context;
+    private readonly IUserRepository _userRepository;
 
-    public UserService(ApplicationDbContext context)
+    public UserService(IUserRepository userRepository)
     {
-        _context = context;
+        _userRepository = userRepository;
     }
 
-    public async Task<List<User>> GetAllAsync()
+    // GET ALL USERS
+    public async Task<List<UserResponseDto>> GetAllAsync()
     {
-        return await _context.Users.ToListAsync();
+        var users = await _userRepository.GetAllAsync();
+
+        return users.Select(MapToResponse).ToList();
     }
 
-    public async Task<User?> GetByIdAsync(int id)
+    // GET USER BY ID
+    public async Task<UserResponseDto?> GetByIdAsync(int id)
     {
-        return await _context.Users.FindAsync(id);
+        var user = await _userRepository.GetByIdAsync(id);
+
+        if (user == null)
+            return null;
+
+        return MapToResponse(user);
     }
 
-    public async Task<User> CreateAsync(CreateUserDto dto)
+    // CREATE USER
+    public async Task<UserResponseDto> CreateAsync(CreateUserDto dto)
     {
         var user = new User
         {
@@ -36,16 +44,17 @@ public class UserService : IUserService
             Age = dto.Age
         };
 
-        _context.Users.Add(user);
+        await _userRepository.AddAsync(user);
+        await _userRepository.SaveChangesAsync();
 
-        await _context.SaveChangesAsync();
-
-        return user;
+        return MapToResponse(user);
     }
 
-    public async Task<bool> UpdateAsync(int id, UpdateUserDto dto)
+    // UPDATE USER
+    public async Task<bool> UpdateAsync(
+        int id, UpdateUserDto dto)
     {
-        var user = await _context.Users.FindAsync(id);
+        var user = await _userRepository.GetByIdAsync(id);
 
         if (user == null)
             return false;
@@ -55,41 +64,45 @@ public class UserService : IUserService
         user.Email = dto.Email.Trim().ToLowerInvariant();
         user.Age = dto.Age;
 
-        await _context.SaveChangesAsync();
+        await _userRepository.SaveChangesAsync();
 
         return true;
     }
 
+    // DELETE USER
     public async Task<bool> DeleteAsync(int id)
     {
-        var user = await _context.Users.FindAsync(id);
+        var user = await _userRepository.GetByIdAsync(id);
 
         if (user == null)
             return false;
 
-        _context.Users.Remove(user);
+        _userRepository.Delete(user);
 
-        await _context.SaveChangesAsync();
+        await _userRepository.SaveChangesAsync();
 
         return true;
     }
 
+    // CHECK EMAIL
     public async Task<bool> EmailExistsAsync(
         string email,
         int? excludeUserId = null)
     {
-        var normalizedEmail = email.Trim().ToLowerInvariant();
-
-        var query = _context.Users
-            .Where(u => u.Email == normalizedEmail);
-
-        if (excludeUserId.HasValue)
-        {
-            query = query.Where(
-                u => u.Id != excludeUserId.Value);
-        }
-
-        return await query.AnyAsync();
+        return await _userRepository.EmailExistsAsync(
+            email, excludeUserId);
     }
-    
+
+    // MAP USER TO RESPONSE DTO
+    private static UserResponseDto MapToResponse(User user)
+    {
+        return new UserResponseDto
+        {
+            Id = user.Id,
+            FirstName = user.FirstName,
+            LastName = user.LastName,
+            Email = user.Email,
+            Age = user.Age
+        };
+    }
 }
